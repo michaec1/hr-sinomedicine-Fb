@@ -35,22 +35,22 @@ export default function App() {
                 <button
                   onClick={() => setActiveTab('draw')}
                   className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${activeTab === 'draw'
-                      ? 'bg-indigo-50 text-indigo-700'
-                      : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
+                    ? 'bg-indigo-50 text-indigo-700'
+                    : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                     }`}
                 >
                   <Gift className="w-5 h-5" />
-                  獎品抽籤1
+                  獎品抽籤123
                 </button>
                 <button
                   onClick={() => setActiveTab('group')}
                   className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${activeTab === 'group'
-                      ? 'bg-blue-50 text-blue-700'
-                      : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
+                    ? 'bg-blue-50 text-blue-700'
+                    : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                     }`}
                 >
                   <LayoutGrid className="w-5 h-5" />
-                  隨機分組2
+                  隨機分組2ab
                 </button>
               </nav>
             </div>
