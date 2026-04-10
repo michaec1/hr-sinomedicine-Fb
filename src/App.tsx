@@ -34,25 +34,23 @@ export default function App() {
               <nav className="space-y-2">
                 <button
                   onClick={() => setActiveTab('draw')}
-                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
-                    activeTab === 'draw'
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${activeTab === 'draw'
                       ? 'bg-indigo-50 text-indigo-700'
                       : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
-                  }`}
+                    }`}
                 >
                   <Gift className="w-5 h-5" />
-                  獎品抽籤
+                  獎品抽籤1
                 </button>
                 <button
                   onClick={() => setActiveTab('group')}
-                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
-                    activeTab === 'group'
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${activeTab === 'group'
                       ? 'bg-blue-50 text-blue-700'
                       : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
-                  }`}
+                    }`}
                 >
                   <LayoutGrid className="w-5 h-5" />
-                  隨機分組
+                  隨機分組2
                 </button>
               </nav>
             </div>
@@ -61,7 +59,7 @@ export default function App() {
               <NameInput names={names} setNames={setNames} />
             </div>
           </div>
-          
+
           <div className="lg:col-span-3">
             {activeTab === 'draw' ? (
               <PrizeDraw names={names} />
