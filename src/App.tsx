@@ -40,7 +40,7 @@ export default function App() {
                     }`}
                 >
                   <Gift className="w-5 h-5" />
-                  獎品抽籤123
+                  產品抽獎456
                 </button>
                 <button
                   onClick={() => setActiveTab('group')}
